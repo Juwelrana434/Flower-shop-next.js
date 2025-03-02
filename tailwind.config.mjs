@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        lato: ['var(--font-lato)', 'sans-serif'],  // Add Lato font family
+        // You can add other fonts here as well if needed.
+      },
     },
   },
   plugins: [],
